@@ -1,5 +1,4 @@
-# docker-grr
-Unoffical GRR Docker image
+# Unoffical GRR Docker image
 
 
 ## Official GRR
@@ -57,25 +56,25 @@ docker-compose -f $(pwd)/grr.yml -d grr
 ## Environment Variables
 When you start the grr image, you can adjust the configuration of the grr instance by passing one or more environment variables on the docker run command line.
 
-### MYSQL_HOST
+``MYSQL_HOST``
 This variable is optional and allows you to specify the address of a database host.
 Default value: db
 
-### MYSQL_PORT
+``MYSQL_PORT``
 This variable is optional and allows you to specify the port of the database host. 
 Default value: 3306
 
-### MYSQL_DATABASE
+``MYSQL_DATABASE``
 This variable is optional and allows you to specify the name of the grr's database.
 Default value: grr
 
-### MYSQL_PREFIX
+``MYSQL_PREFIX``
 This variable is optional and allows you to specify the prefix of the grr's database tables.
 
-### MYSQL_USER
+``MYSQL_USER``
 This variable is optional and allows you to specify the user of the database.
 Default value: grr
 
-### MYSQL_PASSWORD
+``MYSQL_PASSWORD``
 This variable is optional and allows you to specify the password user of the database.
 Default value: grr

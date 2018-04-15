@@ -49,7 +49,7 @@ services:
 ```
 Run with docker-compose:
 ```
-docker-compose -f $(pwd)/grr.yml -d grr
+docker-compose -f $(pwd)/grr.yml run -d grr
 ```
 
 ## Environment Variables

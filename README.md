@@ -13,7 +13,7 @@ Starting a grr instance is simple:
 docker run --name grr -e MSYSQL_HOST=db -p 8080:80 inox42/grr:tag
 ```
 
-## docker-ompose exemple
+## docker-compose exemple
 Example grr.yml for mariadb:
 
 ```

@@ -1,6 +1,5 @@
 # Unoffical GRR Docker image
 
-
 ## Official GRR
 GRR (Gestion et réservation de ressources) is a free software for collaborative management of reservations.
 This software is written in PHP based on MySQL, and runs on any classic Web server.

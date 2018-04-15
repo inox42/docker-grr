@@ -69,6 +69,7 @@ Default value: grr
 
 ``MYSQL_PREFIX``
 This variable is optional and allows you to specify the prefix of the grr's database tables.
+Default value: grr
 
 ``MYSQL_USER``
 This variable is optional and allows you to specify the user of the database.

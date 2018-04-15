@@ -46,4 +46,4 @@ ENV MYSQL_PORT=""
 EXPOSE 80
 
 # Entrypoint
-ENTRYPOINT ["/startup.sh"]
+CMD ["/startup.sh"]

@@ -8,7 +8,7 @@ RUN apt-get install -y unzip wget
 # install nginx
 RUN apt-get install -y nginx
 RUN ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
-RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+#RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 # install php5.0-fpm
 RUN echo "deb http://mirrors.digitalocean.com/debian jessie main contrib non-free" >> /etc/apt/sources.list

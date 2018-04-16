@@ -29,8 +29,6 @@ services:
       - MYSQL_DATABASE=grr
       - MYSQL_USER=grruser
       - MYSQL_PASSWORD=userpassword
-    ports:
-      - 3306:3306
     restart: always
 
   grr:
@@ -49,7 +47,7 @@ services:
 ```
 Run with docker-compose:
 ```
-docker-compose -f $(pwd)/grr.yml run -d grr
+docker-compose up -d grr
 ```
 
 ## Environment Variables

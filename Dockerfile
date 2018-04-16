@@ -23,7 +23,7 @@ RUN apt-get update
 RUN apt-get install -y php5-fpm php5-mysql
 
 # install grr
-ENV GRR_VERSION="3-3-1a"
+ENV GRR_VERSION="3-4-0-rc2"
 RUN wget "https://site.devome.com/fr/grr/telechargement/category/3-versions-patch?download=23:grr-"$GRR_VERSION -O /tmp/GRR-$GRR_VERSION.zip
 RUN cd /tmp;unzip /tmp/GRR-$GRR_VERSION.zip
 RUN rm -f /tmp/GRR-$GRR_VERSION.zip

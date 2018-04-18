@@ -20,7 +20,7 @@ RUN echo "deb http://mirrors.digitalocean.com/debian jessie-updates main contrib
 RUN echo "deb-src http://mirrors.digitalocean.com/debian jessie-updates main contrib non-free" >> /etc/apt/sources.list
 
 RUN apt-get update
-RUN apt-get install -y php5-fpm php5-mysql php5-ldap
+RUN apt-get install -y php5-fpm php5-mysql php5-ldap php5-imap
 
 # install grr
 ENV GRR_VERSION="3-4-0-rc2"
